@@ -12,5 +12,5 @@ from PIL import Image
 
 link = "https://github.com/c0d3h01"
 url = pyqrcode.create(link)
-url.svg("myQR.svg", scale=8) # SVG formmat QR-code
-url.png("myQR.png", scale=6) # PNG format QR-code
+url.svg("./output-generated/myQR.svg", scale=8) # SVG formmat QR-code
+url.png("./output-generated/myQR.png", scale=6) # PNG format QR-code
